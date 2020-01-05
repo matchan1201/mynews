@@ -82,6 +82,7 @@
             
             <main class="py-4">
                 {{-- コンテンツをここに入れるため、@yieldで開けておきます。--}}
+                <p>ニュース投稿一覧</p>
                 @yield('content')
             </main>
         </div>
